@@ -1,15 +1,35 @@
-<DOCTYPE html>
-<html>
-    <head>
-        <meta name="google-adsense-account" content="ca-pub-3415067127856511">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3415067127856511"
-     crossorigin="anonymous"></script>
-        <meta charset="UTF-8">
-        <title>Hello</title>
-    </head>
-    <body>
-    <font color="#8098ff"><h2 align="center"><i><u>Hello everyone</u></i></h2></font>
-  <p align="center"> <a href="https://social-up.xyz"> go to the site </a> </p>
-    <p align="center"><font size="20" color="red">Hello word</font></p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingland Game</title>
+    <style>
+        /* Add CSS here */
+    </style>
+</head>
+<body>
+    <div id="game">
+        <h1>Kingland Game</h1>
+        <div id="resources">
+            <p>Gold: <span id="gold">0</span></p>
+            <p>Food: <span id="food">0</span></p>
+        </div>
+        <div id="actions">
+            <button onclick="buildBuilding()">Build Building (-10 Gold)</button>
+            <button onclick="attackEnemy()">Attack Enemy (-5 Gold)</button>
+        </div>
+        <div id="stats">
+            <p>Player Health: <span id="playerHealth">100</span></p>
+            <p>Enemy Health: <span id="enemyHealth">50</span></p>
+        </div>
+        <div id="map">
+            <p>Click on the map to place a building:</p>
+            <div id="gameMap"></div>
+        </div>
+    </div>
+    <script>
+        // Add JavaScript here
+    </script>
+</body>
 </html>
